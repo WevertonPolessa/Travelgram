@@ -1,0 +1,38 @@
+#nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    background-color: var(--surface-color);}
+
+#links {
+    display: flex;
+    gap: 18px;}
+
+#links-nav {
+    
+    ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;}
+    
+    li a {
+        font-size: 16px;
+        color: var(--text-color-secundary);
+        font-weight: 400 ;
+    }
+}
+
+#links-nav li a:hover {
+    color: red;
+}
+
+@media (width <= 415px) {
+    #links {
+        display: none;
+    }
+    #nav-header {
+        padding: 16px;
+
+    }
+}
+
