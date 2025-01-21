@@ -42,7 +42,7 @@
     color: var(--text-color-secundary)
 }
 
-@media (width <= 415px) {
+@media (width <= 440px) {
    #perfil {
     flex-direction: column;
     gap: 32px;
